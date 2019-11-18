@@ -1,6 +1,7 @@
 // Import stylesheets
 import "./style.css";
 
+// Function to check for factorial of a number
 function factorial(n: number): number {
   if (Number.isInteger(n) && n >= 0)
     return n > 1 ? n * factorial(n - 1) : 1
